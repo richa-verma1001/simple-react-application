@@ -2,6 +2,6 @@ import React from 'react'
 
 export default React.createClass({
   render() {
-    return <h1> Repos </h1>
+    return <h3> Repos </h3>
   }
 })

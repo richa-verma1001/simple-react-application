@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import Home from './Home'
+import Banner from './Banner'
 
 export default React.createClass({
   render() {
@@ -21,9 +22,17 @@ export default React.createClass({
           </ul>
         </nav>
         <div className="container">
-          <blockquote>
+          <div className="row">
+            <div className="col-lg-1">
+              <blockquote>
+
+                <div><Banner /></div>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div className="container">
             <div>{this.props.children || <Home/> }</div>
-          </blockquote>
         </div>
       </div>
     )

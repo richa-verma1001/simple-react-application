@@ -2,6 +2,8 @@ import React from 'react'
 
 export default React.createClass({
   render() {
-    return <h3>This is home!</h3>
+    return (
+        <h1> Banner </h1>      
+    )
   }
 })
