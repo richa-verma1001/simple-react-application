@@ -8,6 +8,7 @@ import About from './modules/About'
 import Repos from './modules/Repos'
 import Home from './modules/Home'
 import TBD from './modules/TBD'
+import UserInfo from './modules/UserInfo'
 
 //render(<App/>, document.getElementById('app'))
 render((
@@ -16,7 +17,9 @@ render((
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
       <Route path="/about" component={About}/>
-      <Route path="/repos" component={Repos}/>
+      <Route path="/repos" component={Repos}>
+        <Route path="/repos/:username/:reponame" component={UserInfo}/>
+      </Route>
     </Route>
   </Router>
 ), document.getElementById('app'))

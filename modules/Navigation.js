@@ -26,11 +26,10 @@ export default React.createClass({
                 aria-expanded="false"
                 to="/repos">Repos<span className="caret"></span></LinkWrapper>
               <ul className="dropdown-menu">
-                <li><a href="#">Page1</a></li>
-                <li><a href="#">Page2</a></li>
+                <li><LinkWrapper to="/repos/userA/react">UserA</LinkWrapper></li>
+                <li><LinkWrapper to="/repos/userB/react">UserB</LinkWrapper></li>
                 <li role="separator" className="divider"></li>
-                <li><a href="#">Page3</a></li>
-                <li role="separator" className="divider"></li>
+                <li><LinkWrapper to="/repos/richa/react">React</LinkWrapper></li>
               </ul>
             </li>
             <li className="nav-item">
