@@ -7,7 +7,7 @@ export default React.createClass({
     return (
       <div>
         <Navigation />
-        <div className="container">
+        <div className="page-header">
           <div className="row">
             <div className="col-lg-1">
               <blockquote>
