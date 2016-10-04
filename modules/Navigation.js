@@ -24,18 +24,6 @@ export default React.createClass({
             </li>
           </ul>
         </nav>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-1">
-              <blockquote>
-                <div><Banner/></div>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-        <div className="container">
-            <div>{this.props.children || <Home/> }</div>
-        </div>
       </div>
     )
   }
