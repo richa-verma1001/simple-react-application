@@ -8,16 +8,15 @@ export default React.createClass({
       <div>
         <Navigation />
         <div className="page-header">
-          <div className="row">
-            <div className="col-lg-1">
-              <blockquote>
-                <div><Banner/></div>
-              </blockquote>
-            </div>
+            <div className="jumbotron"><Banner/></div>
+        </div>
+        <div className="panel panel-default">
+          <div className="panel-body">
+            {this.props.children || <Home/> }
           </div>
         </div>
-        <div className="container">
-            <div>{this.props.children || <Home/> }</div>
+        <div className="panel-footer">
+          Footer
         </div>
       </div>
     )
