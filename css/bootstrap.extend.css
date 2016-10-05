@@ -4,3 +4,7 @@ body {
 .container {
   padding-top: 5rem;
 }
+
+.active {
+  font-weight: bold;
+}

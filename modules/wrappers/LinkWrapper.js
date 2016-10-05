@@ -1,12 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 export default React.createClass({
   render() {
     return (
-      <div>
-        <h3> Repos </h3>
-        {this.props.children}
-      </div>
+      <Link {...this.props} activeClassName="active" />
     )
   }
 })

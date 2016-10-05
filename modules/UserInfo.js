@@ -3,10 +3,10 @@ import React from 'react'
 export default React.createClass({
   render() {
     return (
-      <div>
-        <h3> Repos </h3>
+        <div><h3>
         {this.props.children}
-      </div>
+        {this.props.params.username}
+        </h3></div>
     )
   }
 })
