@@ -27,9 +27,9 @@ export default React.createClass({
                 to="/repos">Repos<span className="caret"></span></LinkWrapper>
               <ul className="dropdown-menu">
                 <li><LinkWrapper to="/repos/userA/react">UserA</LinkWrapper></li>
-                <li><LinkWrapper to="/repos/userB/react">UserB</LinkWrapper></li>
+                <li><LinkWrapper to="/repos/userB/angular">UserB</LinkWrapper></li>
                 <li role="separator" className="divider"></li>
-                <li><LinkWrapper to="/repos/richa/react">React</LinkWrapper></li>
+                <li><LinkWrapper to="/repos/richa/JS">React</LinkWrapper></li>
               </ul>
             </li>
             <li className="nav-item">

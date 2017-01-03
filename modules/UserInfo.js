@@ -5,7 +5,8 @@ export default React.createClass({
     return (
         <div><h3>
         {this.props.children}
-        {this.props.params.username}
+        {this.props.params.username}<br />
+        {this.props.params.reponame}
         </h3></div>
     )
   }
