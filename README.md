@@ -8,3 +8,6 @@ A basic react app so far that adds a couple of routes to the navigation bar. Int
 
 # Reference
 https://github.com/reactjs/react-router-tutorial
+
+# Other Useful Resources
+https://semaphoreci.com/community/tutorials/testing-react-components-with-enzyme-and-mocha
