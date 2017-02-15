@@ -5,6 +5,7 @@ import { Route, IndexRoute } from 'react-router'
 import App from '../modules/App'
 import Navigation from '../modules/Navigation'
 import About from '../modules/About'
+import CompanyInfo from '../modules/CompanyInfo'
 import Repos from '../modules/Repos'
 import Home from '../modules/Home'
 import TBD from '../modules/TBD'
@@ -14,6 +15,7 @@ module.exports = (
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
       <Route path="/about" component={About}/>
+      	<Route path="/about/:id" component={CompanyInfo} />
       <Route path="/repos" component={Repos}>
         <Route path="/repos/:username/:reponame" component={UserInfo}/>
       </Route>

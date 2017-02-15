@@ -1,22 +1,27 @@
 [
    {
       "id":186538,
-      "name":"International Business Machines Corporation"
+      "name":"International Business Machines Corporation", 
+      "description": "International Business Machines (IBM) bets that cognition is the ignition for growth. The company, the world's top provider of computer products and services, is increasingly investing in its cognitive computing system, Watson. The artificial intelligence system helps customers in a wide range of business analyze massive amounts of data to make better decisions. The company's information technology, business services, and software units are now among the largest in the world. While it has moved from hardware to a large degree, the company maintains industry-leading enterprise server and data storage products lines. IBM is transforming its operations as it deals with a rapidly changing technology environment."
    },
    {
       "id":700903,
-      "name":"Target Corp."
+      "name":"Target Corp.",
+      "description": "Target bets that cognition is the ignition for growth. The company, the world's top provider of computer products and services, is increasingly investing in its cognitive computing system, Watson. The artificial intelligence system helps customers in a wide range of business analyze massive amounts of data to make better decisions. The company's information technology, business services, and software units are now among the largest in the world. While it has moved from hardware to a large degree, the company maintains industry-leading enterprise server and data storage products lines. IBM is transforming its operations as it deals with a rapidly changing technology environment."
    },
    {
       "id":142166,
-      "name":"Haksan Co., Ltd."
+      "name":"Haksan Co., Ltd.",
+      "description": "Haksan bets that cognition is the ignition for growth. The company, the world's top provider of computer products and services, is increasingly investing in its cognitive computing system, Watson. The artificial intelligence system helps customers in a wide range of business analyze massive amounts of data to make better decisions. The company's information technology, business services, and software units are now among the largest in the world. While it has moved from hardware to a large degree, the company maintains industry-leading enterprise server and data storage products lines. IBM is transforming its operations as it deals with a rapidly changing technology environment."
    },
    {
       "id":3559523,
-      "name":"Sonic Automotive Inc."
+      "name":"Sonic Automotive Inc.",
+      "description": "Sonic Automotive bets that cognition is the ignition for growth. The company, the world's top provider of computer products and services, is increasingly investing in its cognitive computing system, Watson. The artificial intelligence system helps customers in a wide range of business analyze massive amounts of data to make better decisions. The company's information technology, business services, and software units are now among the largest in the world. While it has moved from hardware to a large degree, the company maintains industry-leading enterprise server and data storage products lines. IBM is transforming its operations as it deals with a rapidly changing technology environment."
    },
    {
       "id":3585055,
-      "name":"BASF SE"
+      "name":"BASF SE",
+      "description": "BASF SE bets that cognition is the ignition for growth. The company, the world's top provider of computer products and services, is increasingly investing in its cognitive computing system, Watson. The artificial intelligence system helps customers in a wide range of business analyze massive amounts of data to make better decisions. The company's information technology, business services, and software units are now among the largest in the world. While it has moved from hardware to a large degree, the company maintains industry-leading enterprise server and data storage products lines. IBM is transforming its operations as it deals with a rapidly changing technology environment."
    }
 ]
