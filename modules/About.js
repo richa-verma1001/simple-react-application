@@ -1,5 +1,4 @@
-import React from 'react'
-import axios from 'axios'
+import React from 'react';
 
 export default React.createClass({
   getInitialState() {
@@ -8,19 +7,20 @@ export default React.createClass({
     };
   },
   componentDidMount() {
-    axios.get('../data/about.json')
-      .then(this.processData)
-      .catch(function(error){
-        console.log(error)
+    fetch('../data/about.json')
+      .then((response) => {
+        return response.json();
+      })
+      .then((result) => {
+        this.setState(
+          {
+            personInfo: result
+          }
+        );
+      })
+      .catch((error) => {
+        reject(error);
       });
-  },
-  processData(response) {
-    if(response.status == 200){
-      console.log(this);
-      this.setState({
-        personInfo: response.data
-      });
-    }
   },
   render() {
     const listItems = this.state.personInfo.map(function(item){
